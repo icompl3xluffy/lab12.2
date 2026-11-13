@@ -10,7 +10,8 @@ const port= 3000
 
  
 app.get("/", (req, res)=>{
-    res.send("hello") //
+   // res.send("hello") 
+   const url = 'https://uselessfacts.jsph.pl/api/v2/facts/random';
 });
 
 
